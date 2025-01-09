@@ -1,0 +1,11 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+:root {
+	--gray: rgb(180, 180, 180);
+}
+
+.btn {
+	@apply w-full cursor-pointer bg-white shadow-md border py-4 px-6 flex justify-center items-center rounded-full hover:bg-neutral-100 active:scale-95 transition-transform;
+}
